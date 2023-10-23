@@ -1,0 +1,28 @@
+section {
+    height: 335px;
+    margin-top: 20px;
+}
+
+section h2 {
+    font-weight: 400;
+    color: coral;
+}
+
+section img {
+    width: 400px;
+    height: 230px;
+    float: right;
+    margin-right: 40px;
+}
+
+.box {
+    width: 700px;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+}
+
+.box p {
+    text-indent: 2em;
+    margin-top: 20px;
+}

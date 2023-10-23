@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" id="head">
+        <div class="title">用户登录</div>
+
+    </div>
+
+    <div class="wrap" id="wrap">
+        <div class="logGet">
+
+            <div class="logD logDtip">
+                <p class="p1">登录 </p>
+            </div>
+
+            <div class="lgD">
+
+                <input type="text" placeholder="请输入用户名" name="userAccount" id="userAccount" value="" />
+                <span></span>
+            </div>
+            <div class="lgD">
+
+                <input type="password" placeholder="请输入密码" name="userPwd" id="userPwd" />
+                <span></span>
+            </div>
+            <div class="logC">
+                <a href="index.html" id="loginButton"><button>欢迎您的登录</button></a>
+            </div>
+            <div class="zc">
+                <a href="register.html">我要注册</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    <script>
+        // 获取登录按钮和输入字段的引用
+        var loginButton = document.getElementById("loginButton");
+        var userAccountInput = document.getElementById("userAccount");
+        var userPwdInput = document.getElementById("userPwd");
+
+        // 添加点击事件监听器
+        loginButton.addEventListener("click", function (event) {
+            // 阻止表单提交的默认行为
+            event.preventDefault();
+
+            // 验证用户名和密码是否为空
+            if (userAccountInput.value.trim() === "") {
+                alert("请输入用户名");
+                return;
+            }
+
+            if (userPwdInput.value.trim() === "") {
+                alert("请输入密码");
+                return;
+            }
+
+            // 执行登录操作，可以在这里添加自己的逻辑
+            // ...
+
+            // 验证成功后跳转到网站首页
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+
+</html>

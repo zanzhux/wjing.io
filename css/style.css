@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    background-color: #ff7f50;
+}
+
+nav ul li {
+    text-align: center;
+    width: 150px;
+    float: left;
+    height: 50px;
+}
+
+.active {
+    background-color: #f9c826;
+}
+
+nav ul li a {
+    padding: 0 32px;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li:hover a {
+    color: #df3d2b;
+}
+
+.top {
+    height: 120px;
+    padding: 10px 0;
+}
+
+.top_l {
+    float: left;
+    width: 190px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    color: #6d4617;
+    font-weight: 600;
+    font-family: fangsong;
+}
+
+.top_l img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.top_l img {
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+}
+
+.top_r {
+    width: 200px;
+    float: right;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.top_r a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #ff7f50;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+.info {
+    color: gray;
+    font-size: 14px;
+}
+
+.num {
+    color: #372208;
+    font-size: 20px;
+}
+
+.search {
+    position: relative;
+    margin-top: 30px;
+    float: left;
+    width: 400px;
+    height: 30px;
+    margin-left: 220px;
+}
+
+.search p {
+    font-size: 8px;
+    text-align: center;
+    color: gray;
+}
+
+.search input {
+    float: left;
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    outline: 0;
+    padding-left: 25px;
+    border-radius: 25px;
+}
+
+.search img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+footer {
+
+    height: 200px;
+    background-color: #ff7f50;
+}
+
+.footer_l {
+    padding-top: 60px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: STXinwei;
+    color: #ede5e5;
+}
+
+
+.footer_r {
+    float: left;
+    width: 1000px;
+    height: 200px;
+}
+
+.copy_font {
+    width: 800px;
+    margin-top: 50px;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.copy_img {
+    float: right;
+}
+
+.copy_img img {
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+}
